@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<sheets>
+		<sheet>
+			<name>player</name>
+			<source>/resources/sprites/player.png</source>
+			<frameWidth>250</frameWidth>
+			<frameHeight>165</frameHeight>
+			<animations>
+				<animation>
+					<name>default</name>
+					<start>0, 0</start>
+					<end>0, 0</end>
+					<speed>0</speed>
+					<repeat>false</repeat>
+				</animation>
+			</animations>
+		</sheet>
+		<sheet>
+			<name>monster</name>
+			<source>/resources/sprites/monster.png</source>
+			<frameWidth>47</frameWidth>
+			<frameHeight>64</frameHeight>
+			<animations>
+				<animation>
+					<name>default</name>
+					<start>0, 0</start>
+					<end>0, 0</end>
+					<speed>0</speed>
+					<repeat>false</repeat>
+				</animation>
+				<animation>
+					<name>moving</name>
+					<start>0, 0</start>
+					<end>0, 3</end>
+					<speed>300</speed>
+					<repeat>true</repeat>
+				</animation>
+			</animations>
+		</sheet>
+		<sheet>
+			<name>egg</name>
+			<source>/resources/sprites/egg.png</source>
+			<frameWidth>32</frameWidth>
+			<frameHeight>30</frameHeight>
+			<animations>
+				<animation>
+					<name>default</name>
+					<start>0, 0</start>
+					<end>0, 0</end>
+					<speed>0</speed>
+					<repeat>false</repeat>
+				</animation>
+				<animation>
+					<name>hatching</name>
+					<start>1, 0</start>
+					<end>1, 0</end>
+					<speed>0</speed>
+					<repeat>false</repeat>
+				</animation>
+			</animations>
+		</sheet>
+	</sheets>
